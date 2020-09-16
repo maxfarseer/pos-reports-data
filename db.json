@@ -1,0 +1,208 @@
+{
+  "employees": [
+    {
+      "id": "employee-uuid-1",
+      "name": "John Johnson"
+    },
+    {
+      "id": "employee-uuid-2",
+      "name": "John Marlow"
+    },
+    {
+      "id": "employee-uuid-3",
+      "name": "Don Yohan"
+    },
+    {
+      "id": "employee-uuid-4",
+      "name": "Nikita Che"
+    },
+    {
+      "id": "employee-uuid-5",
+      "name": "Andrew Klein"
+    }
+  ],
+  "categories": [
+    {
+      "id": "service-uuid-1",
+      "name": "Men"
+    },
+    {
+      "id": "service-uuid-2",
+      "name": "Women"
+    },
+    {
+      "id": "service-uuid-3",
+      "name": "Kid"
+    },
+    {
+      "id": "product-uuid-1",
+      "name": "Shampoo"
+    },
+    {
+      "id": "product-uuid-2",
+      "name": "Soap"
+    },
+    {
+      "id": "product-uuid-3",
+      "name": "Magazine"
+    }
+  ],
+  "services_and_products": [
+    {
+      "id": "s-uuid-1-null",
+      "category_id": null,
+      "name": "Haircut bold",
+      "price_gross": 10
+    },
+    {
+      "id": "s-uuid-2",
+      "category_id": "service-uuid-1",
+      "name": "Haircut cheap",
+      "price_gross": 10
+    },
+    {
+      "id": "s-uuid-3",
+      "category_id": "service-uuid-1",
+      "name": "Haircut business",
+      "price_gross": 30
+    },
+    {
+      "id": "s-uuid-4",
+      "category_id": "service-uuid-1",
+      "name": "Haircut VIP",
+      "price_gross": 99.99
+    },
+    {
+      "id": "s-uuid-2_1",
+      "category_id": "service-uuid-2",
+      "name": "Haircut short hair",
+      "price_gross": 20
+    },
+    {
+      "id": "s-uuid-3_1",
+      "category_id": "service-uuid-2",
+      "name": "Haircut long hair",
+      "price_gross": 40
+    },
+    {
+      "id": "s-uuid-4_1",
+      "category_id": "service-uuid-2",
+      "name": "Haircut VIP (w)",
+      "price_gross": 103.15
+    },
+    {
+      "id": "p-uuid-1-null",
+      "category_id": null,
+      "name": "Unknown product",
+      "price_gross": 1
+    },
+    {
+      "id": "p-uuid-2",
+      "category_id": "product-uuid-1",
+      "name": "Aveda Men",
+      "price_gross": 64
+    },
+    {
+      "id": "p-uuid-3",
+      "category_id": "product-uuid-1",
+      "name": "Yves Rocher Sets",
+      "price_gross": 14.90
+    },
+    {
+      "id": "p-uuid-4",
+      "category_id": "product-uuid-1",
+      "name": "Olapex Bond Multiplier No. 1 Salon Intro Kit",
+      "price_gross": 239.90
+    },
+    {
+      "id": "p-uuid-2_1",
+      "category_id": "product-uuid-2",
+      "name": "Molton Brown 300 ml",
+      "price_gross": 22.86
+    },
+    {
+      "id": "p-uuid-3_1",
+      "category_id": "product-uuid-2",
+      "name": "Fragonard Paket Soaps & Shower",
+      "price_gross": 12
+    },
+    {
+      "id": "p-uuid-4_1",
+      "category_id": "product-uuid-2",
+      "name": "Nesti Dante",
+      "price_gross": 13.95
+    }
+  ],
+  "revenue_service_product_per_employee": [
+    {
+      "id": "revenue-uuid-1",
+      "employee_id": "employee-uuid-1",
+      "product_id": "s-uuid-1",
+      "amount": 1,
+      "discount": 0
+    },
+    {
+      "id": "revenue-uuid-2",
+      "employee_id": "employee-uuid-2",
+      "product_id": "s-uuid-2",
+      "amount": 2,
+      "discount": 0
+    },
+    {
+      "id": "revenue-uuid-3",
+      "employee_id": "employee-uuid-3",
+      "product_id": "s-uuid-3",
+      "amount": 3,
+      "discount": 0
+    },
+    {
+      "id": "revenue-uuid-4",
+      "employee_id": "employee-uuid-2",
+      "product_id": "s-uuid-2_1",
+      "amount": 4,
+      "discount": 0
+    },
+    {
+      "id": "revenue-uuid-5",
+      "employee_id": "employee-uuid-3",
+      "product_id": "s-uuid-3_1",
+      "amount": 5,
+      "discount": 5
+    },
+    {
+      "id": "revenue-uuid-6",
+      "employee_id": "employee-uuid-3",
+      "product_id": "s-uuid-4_1",
+      "amount": 6,
+      "discount": 0
+    },
+    {
+      "id": "revenue-uuid-7",
+      "employee_id": "employee-uuid-3",
+      "product_id": "p-uuid-2",
+      "amount": 7,
+      "discount": 10
+    },
+    {
+      "id": "revenue-uuid-7",
+      "employee_id": "employee-uuid-3",
+      "product_id": "p-uuid-3_1",
+      "amount": 7,
+      "discount": 10
+    },
+    {
+      "id": "revenue-uuid-7",
+      "employee_id": "employee-uuid-3",
+      "product_id": "p-uuid-4",
+      "amount": 8,
+      "discount": 20
+    },
+    {
+      "id": "revenue-uuid-7",
+      "employee_id": "employee-uuid-3",
+      "product_id": "p-uuid-1-null",
+      "amount": 9,
+      "discount": 30
+    }
+  ]
+}
