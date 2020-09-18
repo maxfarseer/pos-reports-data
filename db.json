@@ -204,5 +204,8 @@
       "amount": 9,
       "discount": 30
     }
-  ]
+  ],
+  "settings": {
+    "tax": 0.18
+  }
 }
